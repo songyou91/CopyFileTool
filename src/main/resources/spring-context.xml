@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:jdbc="http://www.springframework.org/schema/jdbc"  
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:util="http://www.springframework.org/schema/util" xmlns:task="http://www.springframework.org/schema/task" xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd"
+	default-lazy-init="true">
+
+	<description>Spring Configuration</description>
+	
+	<!-- ======================== 每天凌晨更新监控路径下的时间 ======================== --> 
+	<bean id="MonitorDirQtzJob" class="com.file.common.ChangeMonitorDir"/>  
+    <bean id="MonitorDirQtzJobMethod" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+	    <property name="targetObject">  
+	        <ref bean="MonitorDirQtzJob"/>  
+	    </property>  
+	    <property name="targetMethod">  <!-- 要执行的方法名称 -->  
+	        <value>changeDir</value>  
+	    </property>  
+	</bean>  
+	  
+	<!-- ======================== 调度触发器 ======================== -->  
+	<bean id="CronTriggerBeanMonitorDir" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+	    <property name="jobDetail" ref="MonitorDirQtzJobMethod"></property>  
+	    <property name="cronExpression" value="0 0 2 * * ? "></property>  
+	</bean>
+	
+	
+	<!-- ======================== 调度工厂 ======================== -->  
+	<bean id="SpringJobSchedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">  
+	    <property name="triggers">  
+	        <list>  
+	            <ref bean="CronTriggerBeanMonitorDir"/>  
+	        </list>  
+	    </property>  
+	</bean>  
+	
+	<bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+         <!-- 线程池维护线程的最少数量 -->
+          <property name="corePoolSize" value="3" />
+          <!-- 允许的空闲时间 -->
+          <property name="keepAliveSeconds" value="200" />
+          <!-- 线程池维护线程的最大数量 -->
+          <property name="maxPoolSize" value="30" />
+          <!-- 缓存队列 -->
+         <property name="queueCapacity" value="500" />
+         <!-- 对拒绝task的处理策略 -->
+         <property name="rejectedExecutionHandler">
+             <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy" />
+         </property>
+     </bean>
+</beans>

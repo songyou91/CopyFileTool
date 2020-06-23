@@ -1,0 +1,625 @@
+2020-01-02 10:47:43,605 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 10:47:45,249 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 10:47:45,409 [main] DEBUG [com.file.common.FileCopyStart] - 获取到交易日期excel表中共有：366条记录
+2020-01-02 10:47:45,409 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 10:48:15,752 [main] DEBUG [com.file.common.FileCopyStart] - 获取到压缩文件excel表中共有：4条记录
+2020-01-02 10:48:16,008 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemProperties] PropertySource with lowest search precedence
+2020-01-02 10:48:16,024 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemEnvironment] PropertySource with lowest search precedence
+2020-01-02 10:48:16,024 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2020-01-02 10:48:16,039 [main] INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66a62053: startup date [Thu Jan 02 10:48:16 CST 2020]; root of context hierarchy
+2020-01-02 10:48:16,149 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemProperties] PropertySource with lowest search precedence
+2020-01-02 10:48:16,149 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemEnvironment] PropertySource with lowest search precedence
+2020-01-02 10:48:16,149 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2020-01-02 10:48:16,180 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2020-01-02 10:48:16,227 [main] DEBUG [org.springframework.beans.factory.xml.DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2020-01-02 10:48:16,430 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Loading schema mappings from [META-INF/spring.schemas]
+2020-01-02 10:48:16,446 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2020-01-02 10:48:16,461 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2020-01-02 10:48:16,555 [main] DEBUG [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2020-01-02 10:48:16,571 [main] DEBUG [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate] - Neither XML 'id' nor 'name' specified - using generated bean name [java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#5806d805]
+2020-01-02 10:48:16,571 [main] DEBUG [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loaded 5 bean definitions from location pattern [classpath:spring-context.xml]
+2020-01-02 10:48:16,571 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@66a62053: org.springframework.beans.factory.support.DefaultListableBeanFactory@29505d69: defining beans [MonitorDirQtzJob,MonitorDirQtzJobMethod,CronTriggerBeanMonitorDir,SpringJobSchedulerFactoryBean,taskExecutor]; root of factory hierarchy
+2020-01-02 10:48:16,633 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@f43a514]
+2020-01-02 10:48:16,633 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@54a07bc2]
+2020-01-02 10:48:16,633 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29505d69: defining beans [MonitorDirQtzJob,MonitorDirQtzJobMethod,CronTriggerBeanMonitorDir,SpringJobSchedulerFactoryBean,taskExecutor]; root of factory hierarchy
+2020-01-02 10:48:16,633 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@169f496b]
+2020-01-02 10:48:16,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 10:48:16,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 10:48:16,696 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'SpringJobSchedulerFactoryBean' to allow for resolving potential circular references
+2020-01-02 10:48:16,743 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'CronTriggerBeanMonitorDir'
+2020-01-02 10:48:16,743 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'CronTriggerBeanMonitorDir'
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'CronTriggerBeanMonitorDir' to allow for resolving potential circular references
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'MonitorDirQtzJobMethod'
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'MonitorDirQtzJobMethod'
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'MonitorDirQtzJobMethod' to allow for resolving potential circular references
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'MonitorDirQtzJob'
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'MonitorDirQtzJob'
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'MonitorDirQtzJob' to allow for resolving potential circular references
+2020-01-02 10:48:16,758 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'MonitorDirQtzJob'
+2020-01-02 10:48:16,789 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'MonitorDirQtzJobMethod'
+2020-01-02 10:48:16,806 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'MonitorDirQtzJobMethod'
+2020-01-02 10:48:16,806 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'CronTriggerBeanMonitorDir'
+2020-01-02 10:48:16,806 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'CronTriggerBeanMonitorDir'
+2020-01-02 10:48:16,853 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'SpringJobSchedulerFactoryBean'
+2020-01-02 10:48:16,931 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Using default implementation for ThreadExecutor
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.2.2.1 created.
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.core.QuartzScheduler] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 2.2.1
+2020-01-02 10:48:16,947 [main] INFO  [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@22765e3e
+2020-01-02 10:48:16,962 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 10:48:16,962 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'lifecycleProcessor'
+2020-01-02 10:48:16,962 [main] INFO  [org.springframework.context.support.DefaultLifecycleProcessor] - Starting beans in phase 2147483647
+2020-01-02 10:48:16,962 [main] DEBUG [org.springframework.context.support.DefaultLifecycleProcessor] - Starting bean 'SpringJobSchedulerFactoryBean' of type [class org.springframework.scheduling.quartz.SchedulerFactoryBean]
+2020-01-02 10:48:16,962 [main] INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-01-02 10:48:16,962 [main] INFO  [org.quartz.core.QuartzScheduler] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+2020-01-02 10:48:16,962 [main] DEBUG [org.springframework.context.support.DefaultLifecycleProcessor] - Successfully started bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 10:48:16,994 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:48:17,009 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2020-01-02 10:48:17,009 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2020-01-02 10:48:17,009 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2020-01-02 10:48:17,009 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'taskExecutor'
+2020-01-02 10:48:17,009 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'taskExecutor'
+2020-01-02 10:48:17,040 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'taskExecutor' to allow for resolving potential circular references
+2020-01-02 10:48:17,056 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#5806d805'
+2020-01-02 10:48:17,056 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#5806d805'
+2020-01-02 10:48:17,056 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'taskExecutor'
+2020-01-02 10:48:17,056 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService  'taskExecutor'
+2020-01-02 10:48:17,072 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'taskExecutor'
+2020-01-02 10:48:17,072 [main] DEBUG [com.file.common.FileCopyStart] - 获取到监控路径excel表中共有：1条记录
+2020-01-02 10:48:17,072 [main] DEBUG [com.file.common.FileCopyStart] - 开始遍历拷贝文件的相关路径，并将扫描路径放入监控中，当前扫描路径为：F:\\temp\\临时\\20200102
+2020-01-02 10:48:17,322 [main] DEBUG [com.file.common.FileCopyStart] - 更新监控路径时，删除临时路径下的文件夹及文件报错，错误信息为：Unable to delete directory F:\temp\临时\20191219.
+java.io.IOException: Unable to delete directory F:\temp\临时\20191219.
+	at org.apache.commons.io.FileUtils.deleteDirectory(FileUtils.java:1541)
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:2270)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:1653)
+	at com.file.common.FileCopyStart.addMonitorDir(FileCopyStart.java:131)
+	at com.file.common.FileCopyStart.main(FileCopyStart.java:86)
+2020-01-02 10:48:17,337 [main] DEBUG [com.file.common.FileCopyStart] - 切换监控路径type：0，项目启动是否拷备startCopyFile：0
+2020-01-02 10:48:17,337 [main] DEBUG [com.file.common.FileCopyStart] - 项目启动，将监控目录下的文件拷备到目标目录下，并进行相应的解压
+2020-01-02 10:48:17,337 [main] DEBUG [com.file.common.FileCopyStart] - 当前时间小于上一交易日截止时间,需从excel中获取上一交易日时间
+2020-01-02 10:48:17,947 [Timer-0] DEBUG [org.quartz.utils.UpdateChecker] - Checking for available updated version of Quartz...
+2020-01-02 10:48:20,979 [Timer-0] DEBUG [org.quartz.utils.UpdateChecker] - Quartz version update check failed: connect timed out
+2020-01-02 10:48:46,792 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:49:12,481 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:49:35,529 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:50:04,123 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:50:32,874 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:50:56,407 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:51:21,423 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:51:47,643 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:52:13,913 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:52:39,711 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:53:07,291 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:53:32,324 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:54:00,043 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:54:28,903 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:54:54,763 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:55:22,545 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:55:48,025 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:56:13,088 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:56:42,532 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:57:07,520 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 监听文件创建方法开始执行
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 执行getTargetDir方法，根据原路径获取目标路径，当前原路径为：F:\temp\临时\20200102
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 当前时间小于上一交易日截止时间,需从excel中获取上一交易日时间
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 根据文件源路径：F:\\temp\\临时\\20200102，获取到文件过滤的后缀名为：dbf
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileCopyStart] - getTargetDir根据文件源目录结构，获取配置源目录以外的路径：，完整目标路径为：F:\\ceshi\
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 执行文件过滤拷备开始
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 当前文件拷备是否过滤，false：否,true：是,获取到的值为：false
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 开始拷贝文件，文件源目录为：F:\temp\临时\20200102\天算基明对冲1号私募20191231_pt.zip,文件目标目录为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 执行文件过滤拷备结束
+2020-01-02 10:57:30,220 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - onFileCreate文件拷贝完成，开始进入文件解压缩方法
+2020-01-02 10:57:35,728 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:58:03,778 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:58:27,590 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:58:54,757 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:59:23,277 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 10:59:52,965 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:00:17,190 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 调用方为：onFileCreate,已进入unpackFileCommons文件解压方法，当前解压的文件路径为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip,解压后的路径为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip,当前文件解压所需密码为：
+2020-01-02 11:00:17,190 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 方法unpackFileCommons解压完成
+2020-01-02 11:00:17,206 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 当前winrar执行文件所在路径为：C:\Program Files (x86)\winrar\WinRAR.exe当前文件解压所需密码为：
+2020-01-02 11:00:17,206 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 当前执行的解压命令为：C:\Program Files (x86)\winrar\WinRAR.exe e -p- -ad -y F:\ceshi\天算基明对冲1号私募20191231_pt.zip F:\ceshi
+2020-01-02 11:00:17,491 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 目标路径为：F:\ceshi\天算基明对冲1号私募20191231_pt.zip文件解压结果为：失败
+2020-01-02 11:00:21,788 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:00:31,869 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 11:00:32,921 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 11:00:33,030 [main] DEBUG [com.file.common.FileCopyStart] - 获取到交易日期excel表中共有：366条记录
+2020-01-02 11:00:33,030 [main] DEBUG [com.file.common.excel.ImportExcel] - Initialize success.
+2020-01-02 11:00:41,749 [main] DEBUG [com.file.common.FileCopyStart] - 获取到压缩文件excel表中共有：4条记录
+2020-01-02 11:00:41,853 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemProperties] PropertySource with lowest search precedence
+2020-01-02 11:00:41,853 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemEnvironment] PropertySource with lowest search precedence
+2020-01-02 11:00:41,853 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2020-01-02 11:00:41,853 [main] INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15bbc527: startup date [Thu Jan 02 11:00:41 CST 2020]; root of context hierarchy
+2020-01-02 11:00:41,915 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemProperties] PropertySource with lowest search precedence
+2020-01-02 11:00:41,915 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Adding [systemEnvironment] PropertySource with lowest search precedence
+2020-01-02 11:00:41,915 [main] DEBUG [org.springframework.core.env.StandardEnvironment] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2020-01-02 11:00:41,915 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2020-01-02 11:00:41,915 [main] DEBUG [org.springframework.beans.factory.xml.DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2020-01-02 11:00:41,962 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Loading schema mappings from [META-INF/spring.schemas]
+2020-01-02 11:00:41,993 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2020-01-02 11:00:42,384 [main] DEBUG [org.springframework.beans.factory.xml.PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2020-01-02 11:00:42,431 [main] DEBUG [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2020-01-02 11:00:42,462 [main] DEBUG [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate] - Neither XML 'id' nor 'name' specified - using generated bean name [java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#73c0191e]
+2020-01-02 11:00:42,462 [main] DEBUG [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loaded 5 bean definitions from location pattern [classpath:spring-context.xml]
+2020-01-02 11:00:42,462 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@15bbc527: org.springframework.beans.factory.support.DefaultListableBeanFactory@48b13bf0: defining beans [MonitorDirQtzJob,MonitorDirQtzJobMethod,CronTriggerBeanMonitorDir,SpringJobSchedulerFactoryBean,taskExecutor]; root of factory hierarchy
+2020-01-02 11:00:42,509 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@c50fda2]
+2020-01-02 11:00:42,509 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@172ea706]
+2020-01-02 11:00:42,509 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@48b13bf0: defining beans [MonitorDirQtzJob,MonitorDirQtzJobMethod,CronTriggerBeanMonitorDir,SpringJobSchedulerFactoryBean,taskExecutor]; root of factory hierarchy
+2020-01-02 11:00:42,524 [main] DEBUG [org.springframework.context.support.ClassPathXmlApplicationContext] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5fe72dbf]
+2020-01-02 11:00:42,524 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 11:00:42,524 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 11:00:42,556 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'SpringJobSchedulerFactoryBean' to allow for resolving potential circular references
+2020-01-02 11:00:42,634 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'CronTriggerBeanMonitorDir'
+2020-01-02 11:00:42,634 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'CronTriggerBeanMonitorDir'
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'CronTriggerBeanMonitorDir' to allow for resolving potential circular references
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'MonitorDirQtzJobMethod'
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'MonitorDirQtzJobMethod'
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'MonitorDirQtzJobMethod' to allow for resolving potential circular references
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'MonitorDirQtzJob'
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'MonitorDirQtzJob'
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'MonitorDirQtzJob' to allow for resolving potential circular references
+2020-01-02 11:00:42,649 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'MonitorDirQtzJob'
+2020-01-02 11:00:42,665 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'MonitorDirQtzJobMethod'
+2020-01-02 11:00:42,665 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'MonitorDirQtzJobMethod'
+2020-01-02 11:00:42,681 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'CronTriggerBeanMonitorDir'
+2020-01-02 11:00:42,681 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'CronTriggerBeanMonitorDir'
+2020-01-02 11:00:42,712 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'SpringJobSchedulerFactoryBean'
+2020-01-02 11:00:42,743 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Using default implementation for ThreadExecutor
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.2.2.1 created.
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.core.QuartzScheduler] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 2.2.1
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@31b47245
+2020-01-02 11:00:42,759 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 11:00:42,759 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'lifecycleProcessor'
+2020-01-02 11:00:42,759 [main] INFO  [org.springframework.context.support.DefaultLifecycleProcessor] - Starting beans in phase 2147483647
+2020-01-02 11:00:42,759 [main] DEBUG [org.springframework.context.support.DefaultLifecycleProcessor] - Starting bean 'SpringJobSchedulerFactoryBean' of type [class org.springframework.scheduling.quartz.SchedulerFactoryBean]
+2020-01-02 11:00:42,759 [main] INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-01-02 11:00:42,759 [main] INFO  [org.quartz.core.QuartzScheduler] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+2020-01-02 11:00:42,759 [main] DEBUG [org.springframework.context.support.DefaultLifecycleProcessor] - Successfully started bean 'SpringJobSchedulerFactoryBean'
+2020-01-02 11:00:42,759 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'taskExecutor'
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'taskExecutor'
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'taskExecutor' to allow for resolving potential circular references
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#73c0191e'
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy#73c0191e'
+2020-01-02 11:00:42,774 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'taskExecutor'
+2020-01-02 11:00:42,774 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService  'taskExecutor'
+2020-01-02 11:00:42,807 [main] DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'taskExecutor'
+2020-01-02 11:00:42,807 [main] DEBUG [com.file.common.FileCopyStart] - 获取到监控路径excel表中共有：1条记录
+2020-01-02 11:00:42,807 [main] DEBUG [com.file.common.FileCopyStart] - 开始遍历拷贝文件的相关路径，并将扫描路径放入监控中，当前扫描路径为：F:\\temp\\临时\\20200102
+2020-01-02 11:00:42,822 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:00:43,760 [Timer-0] DEBUG [org.quartz.utils.UpdateChecker] - Checking for available updated version of Quartz...
+2020-01-02 11:00:47,201 [Timer-0] DEBUG [org.quartz.utils.UpdateChecker] - Quartz version update check failed: connect timed out
+2020-01-02 11:01:11,319 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:01:29,723 [main] DEBUG [com.file.common.FileCopyStart] - 切换监控路径type：0，项目启动是否拷备startCopyFile：0
+2020-01-02 11:01:29,723 [main] DEBUG [com.file.common.FileCopyStart] - 项目启动，将监控目录下的文件拷备到目标目录下，并进行相应的解压
+2020-01-02 11:01:29,723 [main] DEBUG [com.file.common.FileCopyStart] - 当前时间小于上一交易日截止时间,需从excel中获取上一交易日时间
+2020-01-02 11:01:34,771 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:02:03,451 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:02:30,530 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:02:55,236 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:03:21,697 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:03:51,094 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:04:18,061 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 监听文件创建方法开始执行
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 执行getTargetDir方法，根据原路径获取目标路径，当前原路径为：F:\temp\临时\20200102
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 当前时间小于上一交易日截止时间,需从excel中获取上一交易日时间
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileCopyStart] - 根据文件源路径：F:\\temp\\临时\\20200102，获取到文件过滤的后缀名为：dbf
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileCopyStart] - getTargetDir根据文件源目录结构，获取配置源目录以外的路径：，完整目标路径为：F:\\ceshi\
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 执行文件过滤拷备开始
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 当前文件拷备是否过滤，false：否,true：是,获取到的值为：false
+2020-01-02 11:04:37,225 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 开始拷贝文件，文件源目录为：F:\temp\临时\20200102\天算基明对冲1号私募20191231_pt.zip,文件目标目录为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip
+2020-01-02 11:04:37,256 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 执行文件过滤拷备结束
+2020-01-02 11:04:37,256 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - onFileCreate文件拷贝完成，开始进入文件解压缩方法
+2020-01-02 11:04:42,031 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:05:09,472 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:05:33,567 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:06:03,049 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:06:26,316 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:06:50,159 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:07:14,695 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 调用方为：onFileCreate,已进入unpackFileCommons文件解压方法，当前解压的文件路径为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip,解压后的路径为：F:\\ceshi\\天算基明对冲1号私募20191231_pt.zip,当前文件解压所需密码为：
+2020-01-02 11:07:14,695 [Thread-1] DEBUG [com.file.common.FileListerAdapter] - 方法unpackFileCommons解压完成
+2020-01-02 11:07:14,695 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 当前winrar执行文件所在路径为：C:\Program Files (x86)\winrar\WinRAR.exe当前文件解压所需密码为：
+2020-01-02 11:07:14,695 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 当前执行的解压命令为：C:\Program Files (x86)\winrar\WinRAR.exe e -p- -ad -y F:\ceshi\天算基明对冲1号私募20191231_pt.zip F:\ceshi
+2020-01-02 11:07:14,871 [taskExecutor-1] DEBUG [com.file.common.WinrarUnpackFile] - 目标路径为：F:\ceshi\天算基明对冲1号私募20191231_pt.zip文件解压结果为：失败
+2020-01-02 11:07:19,339 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:07:42,772 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:08:06,486 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:08:34,143 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:09:02,800 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:09:29,145 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:09:57,896 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:10:23,850 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:10:50,979 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:11:14,247 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:11:43,920 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:12:12,202 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:12:40,431 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:13:05,589 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:13:31,374 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:14:01,321 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:14:25,745 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:14:49,558 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:15:17,247 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:15:41,154 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:16:05,005 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:16:29,623 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:16:53,034 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:17:22,863 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:17:52,559 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:18:17,657 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:18:45,857 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:19:09,796 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:19:36,420 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:19:59,858 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:20:23,578 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:20:49,274 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:21:18,401 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:21:47,324 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:22:14,406 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:22:41,719 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:23:10,468 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:23:39,563 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:24:02,995 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:24:28,011 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:24:55,647 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:25:22,419 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:25:51,124 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:26:17,140 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:26:44,626 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:27:12,660 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:27:36,781 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:28:05,817 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:28:32,647 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:28:59,734 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:29:24,929 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:29:50,347 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:30:17,762 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:30:44,508 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:31:12,525 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:31:41,067 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:32:04,599 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:32:32,090 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:32:55,797 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:33:24,573 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:33:51,011 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:34:19,919 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:34:45,559 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:35:10,180 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:35:40,127 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:36:09,753 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:36:34,535 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:37:01,520 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:37:26,880 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:37:50,476 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:38:13,787 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:38:42,975 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:39:06,320 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:39:33,502 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:39:56,621 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:40:26,060 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:40:55,218 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:41:23,657 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:41:46,908 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:42:16,393 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:42:42,833 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:43:11,068 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:43:34,929 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:44:02,446 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:44:27,098 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:44:54,646 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:45:19,044 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:45:46,530 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:46:15,421 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:46:39,684 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:47:09,008 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:47:35,111 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:48:01,709 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:48:27,210 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:48:54,836 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:49:23,307 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:49:52,027 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:50:19,965 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:50:47,732 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:51:15,171 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:51:38,188 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:52:07,748 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:52:36,211 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:53:05,420 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:53:29,956 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:53:57,285 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:54:21,738 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:54:49,579 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:55:18,977 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:55:46,547 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:56:14,925 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:56:41,395 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:57:04,550 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:57:29,641 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:57:53,666 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:58:21,198 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:58:50,858 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:59:14,531 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 11:59:38,361 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:00:07,810 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:00:35,014 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:01:04,096 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:01:31,566 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:02:01,263 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:02:25,749 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:02:51,156 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:03:17,652 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:03:45,735 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:04:12,084 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:04:39,882 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:05:08,133 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:05:32,488 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:05:55,568 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:06:24,136 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:06:53,792 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:07:22,355 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:07:45,693 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:08:13,778 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:08:41,639 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:09:09,448 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:09:38,872 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:10:08,788 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:10:33,399 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:10:56,766 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:11:24,292 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:11:50,340 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:12:14,703 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:12:41,620 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:13:08,196 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:13:38,134 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:14:07,721 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:14:36,450 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:15:01,326 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:15:29,450 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:15:59,350 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:16:26,304 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:16:54,228 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:17:19,792 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:17:48,727 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:18:15,634 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:18:45,635 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:19:14,873 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:19:43,749 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:20:11,932 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:20:39,110 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:21:05,705 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:21:29,816 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:21:55,854 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:22:21,546 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:22:46,579 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:23:10,975 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:23:35,352 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:24:02,677 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:24:30,381 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:24:54,029 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:25:21,499 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:25:48,711 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:26:15,291 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:26:40,871 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:27:09,034 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:27:37,753 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:28:03,864 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:28:33,283 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:29:02,865 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:29:28,866 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:29:53,280 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:30:19,406 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:30:48,704 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:31:17,010 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:31:41,545 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:32:10,562 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:32:38,907 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:33:05,127 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:33:29,273 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:33:55,603 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:34:25,370 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:34:49,893 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:35:16,414 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:35:40,040 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:36:05,150 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:36:29,308 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:36:53,797 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:37:18,392 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:37:44,737 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:38:08,332 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:38:35,629 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:39:02,083 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:39:27,033 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:39:51,269 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:40:16,411 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:40:44,208 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:41:12,834 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:41:39,915 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:42:05,619 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:42:33,574 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:43:03,029 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:43:27,601 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:43:54,134 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:44:19,372 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:44:46,045 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:45:13,805 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:45:43,418 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:46:07,310 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:46:34,605 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:46:58,848 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:47:25,771 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:47:55,414 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:48:25,287 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:48:48,609 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:49:18,413 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:49:42,039 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:50:05,411 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:50:30,100 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:50:59,648 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:51:26,525 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:51:56,088 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:52:25,788 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:52:52,960 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:53:16,591 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:53:40,952 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:54:09,797 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:54:35,908 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:54:59,764 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:55:24,622 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:55:51,076 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:56:19,083 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:56:45,382 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:57:14,761 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:57:43,888 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:58:08,812 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:58:37,736 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:59:07,515 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 12:59:31,757 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:00:00,055 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:00:29,323 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:00:56,274 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:01:25,135 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:01:51,511 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:02:18,247 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:02:46,955 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:03:11,009 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:03:39,627 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:04:08,925 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:04:36,740 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:05:04,600 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:05:33,273 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:05:56,495 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:06:23,230 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:06:50,408 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:07:20,112 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:07:43,816 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:08:07,130 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:08:35,991 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:09:00,398 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:09:26,914 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:09:55,087 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:10:24,729 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:10:51,153 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:11:18,504 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:11:47,833 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:12:15,147 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:12:42,565 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:13:09,804 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:13:33,697 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:13:57,104 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:14:24,829 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:14:48,519 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:15:13,176 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:15:38,185 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:16:04,623 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:16:28,874 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:16:58,244 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:17:25,298 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:17:49,377 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:18:16,706 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:18:43,259 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:19:12,233 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:19:36,048 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:20:03,105 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:20:26,363 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:20:51,004 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:21:15,679 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:21:45,430 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:22:11,155 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:22:34,890 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:23:02,361 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:23:29,991 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:23:53,101 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:24:19,649 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:24:42,878 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:25:08,270 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:25:37,396 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:26:01,726 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:26:26,102 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:26:49,557 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:27:16,356 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:27:40,779 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:28:06,061 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:28:32,633 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:28:57,400 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:29:22,198 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:29:46,155 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:30:11,406 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:30:38,689 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:31:07,201 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:31:33,889 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:32:03,781 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:32:27,876 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:32:54,009 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:33:18,041 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:33:47,059 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:34:15,101 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:34:38,946 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:35:03,572 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:35:29,229 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:35:59,058 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:36:24,934 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:36:50,295 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:37:15,774 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:37:44,853 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:38:08,620 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:38:37,404 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:39:01,045 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:39:30,770 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:40:00,490 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:40:26,788 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:40:54,477 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:41:18,290 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:41:44,431 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:42:13,120 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:42:42,111 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:43:05,316 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:43:31,780 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:43:58,984 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:44:23,784 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:44:49,155 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:45:15,328 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:45:45,316 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:46:09,521 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:46:39,037 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:47:02,070 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:47:28,177 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:47:51,819 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:48:15,965 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:48:45,639 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:49:11,453 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:49:41,271 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:50:10,288 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:50:33,408 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:50:57,565 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:51:25,286 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:51:54,959 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:52:19,710 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:52:44,134 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:53:13,527 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:53:38,746 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:54:03,091 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:54:29,718 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
+2020-01-02 13:54:57,360 [SpringJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG [org.quartz.core.QuartzSchedulerThread] - batch acquisition of 0 triggers
