@@ -16,7 +16,7 @@
 		<commons-lang3.version>3.3.2</commons-lang3.version>
 		<spring.version>4.1.9.RELEASE</spring.version>
 		<guava.version>17.0</guava.version>
-		<poi.version>3.16</poi.version>
+		<poi.version>4.1.2</poi.version>
 	</properties>
 
 	<dependencies>
